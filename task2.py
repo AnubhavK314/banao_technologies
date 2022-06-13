@@ -88,13 +88,7 @@ driver.implicitly_wait(5)
 
 driver.find_element_by_id("com.ATG.World:id/myPostsLabelTextView").click()
 
-print("    PPPPPPPP  OOOOOOO  SSSSSSS  TTTTTTTTT  EEEEEEE  DDDDDD")
-print("    P      P  O     O  S            T      E        D     D")
-print("    P      P  O     O  S            T      E        D     D")
-print("    PPPPPPPP  O     O  SSSSSSS      T      EEEEEEE  D     D")
-print("    P         O     O        S      T      E        D     D")
-print("    P         O     O        S      T      E        D     D")
-print("    P         OOOOOOO  SSSSSSS      T      EEEEEEE  DDDDDD")
+print("success")
 time.sleep(10)
 
 driver.quit()
